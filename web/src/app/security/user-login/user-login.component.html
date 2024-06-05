@@ -1,0 +1,25 @@
+<div class="user-login-main_container">
+    <div>
+        <h5>ACCESO</h5>
+        <form action="" (ngSubmit)="loginUser(form)" #form="ngForm">
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td><label class="form-label" name="email" id="email" for="email">Email</label></td>
+                        <td><input class="form-control" name="email" ngModel type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="form-label" name="password" id="password" for="password">Password</label></td>
+                        <td><input class="form-control" name="password" ngModel type="text"></td>
+                    </tr>
+
+                    <tr class="login-button">
+                        <button class="btn btn-dark"type="submit">Login</button>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+

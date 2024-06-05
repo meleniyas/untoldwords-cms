@@ -1,0 +1,46 @@
+version: '3.5'
+
+services:
+
+  app:
+    container_name: ${APP_CONTAINER}
+    build:
+      context: ./docker
+      dockerfile: ./Dockerfile
+      args:
+        APP_NAME: ${APP_NAME}
+    volumes:
+      - ./web:/${APP_NAME}
+    ports:
+      - '${DEVELOPMENT_WEB_PORT}:4200'
+    networks:
+      - veteasy-network
+    depends_on:
+      - ngrok
+    environment:
+      - NGROK_HOSTNAME=host.docker.internal
+      - STYLE=css
+
+  ngrok:
+    image: ngrok/ngrok:latest
+    container_name: '${APP_CONTAINER}-ngrok'
+    restart: no
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
+    command:
+      - "start"
+      - "--config"
+      - "/etc/ngrok.yml"
+      - "app"
+    volumes:
+      - ./docker/ngrok.yml:/etc/ngrok.yml
+    ports:
+      - 4040:4040
+    networks:
+      - veteasy-network
+
+networks:
+  veteasy-network:
+
+volumes:
+  web:

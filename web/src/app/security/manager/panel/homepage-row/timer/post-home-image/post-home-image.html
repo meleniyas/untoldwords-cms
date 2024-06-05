@@ -1,0 +1,17 @@
+<div class="layer">
+  <div class="preview" [ngStyle]="previewStyles">Previsualización</div>
+  <form (ngSubmit)="submitForm()" #imageForm="ngForm">
+    <div class="form-group">
+      <label for="imageName">Nombre de la imagen:</label>
+      <input type="text" class="form-control" id="imageName" name="imageName" [(ngModel)]="imageName">
+    </div>
+    <div class="form-group">
+      <label  id="customUploadLabel" class="custom-file-upload" (click)="fileUploader.click()">
+        Añadir Imagen
+      </label>
+      <label (click)="clear()" class="clear">X</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Subir Imagen</button>
+  </form>
+</div>
+<input type="file" #fileUploader (change)="onFileSelected($event)"/>

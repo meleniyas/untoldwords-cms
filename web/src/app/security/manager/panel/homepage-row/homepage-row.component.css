@@ -1,0 +1,24 @@
+.homerow-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.homerow-label {
+    padding: 15px 15px 0 15px;
+}
+
+.homerow-body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+app-home-image-carousel {
+    width: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

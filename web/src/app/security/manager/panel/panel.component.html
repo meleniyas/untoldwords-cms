@@ -1,0 +1,21 @@
+<div class="layer"> 
+    <app-homepage-row></app-homepage-row>
+    <div class="workrow-container">
+        <div class="workrow-label">
+            <h6>WORKS</h6>
+        </div>
+        <div class="add-more">
+            <div (click)="openAddWork()">+ ADD NEW PROJECT</div>
+        </div>
+        <div class="workrow-body">
+            <ul cdkDropList cdkDropListOrientation="vertical" class="work-container" (cdkDropListDropped)="drop($event)" #container> 
+                <ng-container *ngFor="let work of works; let i = index">
+                  <li cdkDrag [cdkDragData]="work"  [class.orderState]="orderState" (mouseenter)="showSelectionDiv(work)" (mouseleave)="hideSelectionDiv(work)">
+                    <app-workpage-row [work]="work"></app-workpage-row>
+                    <div *cdkDragPlaceholder class="placeholder"></div>
+                  </li>
+                </ng-container>
+            </ul>
+        </div>
+    </div>
+</div>

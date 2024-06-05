@@ -1,0 +1,103 @@
+.layer {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    color: white;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 0;
+
+    background-size: cover;
+    transition: all ease-in 0.01s;
+    background-position: center;
+}
+
+label {
+
+    padding: 10px 0 10px 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 0;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+
+}
+
+input:focus {
+    background-color: transparent;
+    color: white;
+}
+
+button {
+    background-color: rgb(53, 53, 53);
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    transition: all ease 0.2s;
+    color: white;
+    width: auto;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    background-color: black;
+}
+
+button:active {
+    transition: all ease-out 0.01s;
+    background-color: #b6b6b6 !important;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgb(53, 53, 53);
+    margin-top: 10px;
+    padding: 10px;
+
+    width: 90%;
+}
+
+label.clear {
+    width: 10%;
+    background-color: #572929;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in 0.01s;
+    user-select: none;
+}
+
+label.clear:hover {
+    background-color: #842e2e;
+    cursor: pointer;
+}
+
+label.clear:active {
+    transition: all ease-out 0.01s;
+    background-color: #e12c2c !important;
+}
+
+.custom-file-upload:hover {
+    background-color: #000000;
+    transition: all ease-in 0.01s;
+}
+
+.preview {}

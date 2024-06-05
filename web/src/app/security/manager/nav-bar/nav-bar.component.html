@@ -1,0 +1,33 @@
+<nav class="navbar" [ngClass]="{'navbar-shadow': isScrolled}">
+  <div class = "main-container">
+      <div class="nav-untold-left">
+      </div>
+      <div class="nav-untold-center">
+        <p>UNTOLD</p>
+        <p>|</p>
+        <p>WORLDS</p>
+        <p>|</p>
+        <p>MANAGER</p>
+      </div>
+      <div class="nav-untold-rigth" >
+          <span>{{name}}</span>
+          <button class="navbar-button" (click)="toggleDropdown()">
+              <span class="icono">
+                  <img src="assets/svg/menu.svg" class="menu"/>
+              </span>
+          </button>
+
+      </div>
+  </div>
+  <div class="drop-container" [ngClass]="{'show': isDropdownOpen}">
+      <div class="nav-untold-left">
+      </div>
+      <div class="nav-untold-center">
+      </div>
+      <div class="nav-untold-rigth">
+        <li><a  href="manager/panel">panel</a></li>
+          <li><a  href="manager/repository">repository</a></li>
+          <li><a  (click)="logOut()">log-Out</a></li>
+      </div>
+  </div>      
+</nav>

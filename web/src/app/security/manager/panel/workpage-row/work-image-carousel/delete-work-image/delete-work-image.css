@@ -1,0 +1,51 @@
+.layer {
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: last baseline;
+    width: 100%;
+}
+
+button {
+    background-color: rgb(53, 53, 53);
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    transition: all ease 0.2s;
+    color: white;
+    width: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+    background-color: rgb(70, 118, 88);
+}
+
+button:active {
+    transition: all ease-out 0.01s;
+    background-color: #b6b6b6;
+}
+
+.nop {
+    background-color: #842e2e;
+}
+
+.nop:hover {
+    background-color: #855959;
+}
+
+
+.nop:active {
+    background-color: #e12c2c !important;
+}

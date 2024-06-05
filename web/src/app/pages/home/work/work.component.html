@@ -1,0 +1,40 @@
+<div id="myModal" class="modal" >
+    <div class="background" (click)="closeModal()"></div>
+    <img class="modal-content" id="img01">
+    <div class="rotation">
+        <span class="previous" (click)="previous()">
+            <svg class="w-[20px] h-[20px] text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m15 19-7-7 7-7"/>
+            </svg> 
+        </span>
+        <span class="next" (click)="next()">
+            <svg class="w-[20px] h-[20px] text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m9 5 7 7-7 7"/>
+              </svg>
+              
+        </span>
+    </div>
+
+    <div class="info">
+        <div class="pag">
+            <span>{{ currentImageIndex + 1 }}</span>
+            <span>/</span>
+            <span>{{ currentTotal }}</span>
+        </div>
+        <span>PROJECT: {{ currentWork.name }}</span>
+        <span>ARCHITECTS: {{ currentWork.architects }}</span>
+        <span> {{ currentWork.description }} </span>
+    </div>
+</div>
+<div class="row">
+    <ng-container class="row" *ngFor="let work of works; let i = index">
+        <div class="image-wrapper">
+            <img class="img-gallery" [src]="work.mainImageUrl" style="width:100%"
+                 [ngClass]="{'work-loaded': work.loaded}"
+                 (click)="showModal(work)"
+                 (load)="work.loaded = true">
+            <!-- <div class="overlay">{{work.name}}</div> -->
+        </div>
+    </ng-container>
+</div>
+

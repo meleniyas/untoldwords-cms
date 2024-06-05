@@ -1,0 +1,17 @@
+<div class="layer">
+  <span>NUEVO TRABAJO</span>
+  <form (ngSubmit)="add()" #workForm="ngForm">
+    <div class="form-group">
+      <label for="title">Titulo del Proyecto:</label>
+      <input type="text" class="form-control" id="title" name="title" [(ngModel)]="workName">
+      <label for="title">Arquitectos:</label>
+      <input type="text" class="form-control" id="arq" name="arq" [(ngModel)]="architects">
+      <label for="title">Descripción | Hastags:</label>
+      <input type="text" class="form-control" id="desc" name="desc" [(ngModel)]="description">
+    </div>
+    <div class="selection">
+      <button class="cancel" (click)="close()">Cancelar</button>
+      <button type="submit">Añadir</button>
+    </div>
+  </form>
+</div>

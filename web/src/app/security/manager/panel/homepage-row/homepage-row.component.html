@@ -1,0 +1,11 @@
+<div class="homerow-container">
+    <div class="homerow-label">
+        <h6>HOME PAGE</h6>
+    </div>
+    <div class="homerow-body">
+        <ng-container *ngIf="home">
+            <app-timer [home]="home"></app-timer>
+            <app-home-image-carousel [home]="home"></app-home-image-carousel>
+        </ng-container>
+    </div>
+</div>

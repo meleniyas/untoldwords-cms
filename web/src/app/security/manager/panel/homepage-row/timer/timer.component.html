@@ -1,0 +1,16 @@
+<div class="timer">
+    <div class="timer-tittle">
+        <form (ngSubmit)="setTimer(form)" #form="ngForm">
+
+            <label for="imageName">TIMER</label>
+            <input type="text" class="form-control" id="timer" name="timer" [(ngModel)]="timer">
+            <button class="btn btn-dark" type="submit">SetTime</button>
+
+          </form>
+    </div>
+    <div class="timer-body">
+        <button (click)="openAddImg()">
+            <svg fill="#dedede" height="100px" width="100px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-45.5 -45.5 546.00 546.00" xml:space="preserve" stroke="#dedede" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="4.55"></g><g id="SVGRepo_iconCarrier"> <polygon points="455,212.5 242.5,212.5 242.5,0 212.5,0 212.5,212.5 0,212.5 0,242.5 212.5,242.5 212.5,455 242.5,455 242.5,242.5 455,242.5 "></polygon> </g></svg>
+        </button>
+    </div>
+</div>

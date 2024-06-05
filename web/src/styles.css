@@ -1,0 +1,207 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Adriell-Black';
+    src: url('assets/fonts/ADRIELL/Adriell-Black.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Adriell-Bold';
+    src: url('assets/fonts/ADRIELL/Adriell-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Adriell-Medium';
+    src: url('assets/fonts/ADRIELL/Adriell-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Adriell-Outline';
+    src: url('assets/fonts/ADRIELL/Adriell-Outline.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Adriell-Regular';
+    src: url('assets/fonts/ADRIELL/Adriell-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Axon-Bold';
+    src: url('assets/fonts/AXON/Axon-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Axon-Light';
+    src: url('assets/fonts/AXON/Axon-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Axon-Regular';
+    src: url('assets/fonts/AXON/Axon-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Axon-UltraLight';
+    src: url('assets/fonts/AXON/Axon-UltraLight.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bensoud';
+    src: url('assets/fonts/BENSOUD/Bensoud.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Breymont-Bold';
+    src: url('assets/fonts/BREYMONT/Breymont-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Breymont-Light';
+    src: url('assets/fonts/BREYMONT/Breymont-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Butler-Black';
+    src: url('assets/fonts/BUTLER/Butler_Black.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Butler-Bold';
+    src: url('assets/fonts/BUTLER/Butler_Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Butler-ExtraBold';
+    src: url('assets/fonts/BUTLER/Butler_ExtraBold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Butler-Light';
+    src: url('assets/fonts/BUTLER/Butler_Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Butler-Medium';
+    src: url('assets/fonts/BUTLER/Butler_Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Butler-Regular';
+    src: url('assets/fonts/BUTLER/Butler_Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Butler-UltraLight';
+    src: url('assets/fonts/BUTLER/Butler_Ultra_Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-Bold';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-BoldItalic';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-BoldItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-Heavy';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-Heavy.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-HeavyItalic';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-HeavyItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-Italic';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-Italic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-Light';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-LightItalic';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-LightItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-Regular';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-Thin';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-Thin.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ClarityNuvo-ThinItalic';
+    src: url('assets/fonts/CLARITY_NUVO/Desktop Fonts/OTF/ClarityNuvo-ThinItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sheylla-Bold';
+    src: url('assets/fonts/SHEYLLA/Sheylla-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sheylla-Light';
+    src: url('assets/fonts/SHEYLLA/Sheylla-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sheylla-Regular';
+    src: url('assets/fonts/SHEYLLA/Sheylla-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sheylla-Thin';
+    src: url('assets/fonts/SHEYLLA/Sheylla-Thin.otf') format('truetype');
+}
+
+:root {
+    --separation: 17px;
+}
+
+body {
+    font-family: 'Adriell-Bold' !important;
+    overflow-x: hidden;
+}
+
+
+.modal.fade.show {
+    background-color: rgb(59 59 59 / 56%)
+}
+
+.modal-content {
+    background-color: rgba(26, 26, 26, 0.56) !important;
+    border-radius: 0 !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+::-webkit-scrollbar {
+
+    width: 5px;
+}
+
+/* Estilo del "pulgón" o "scroll thumb" */
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 5px;
+    /* Radio de borde del "pulgón" */
+}
+
+/* Estilo de la barra de desplazamiento al pasar el cursor sobre ella */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color del "pulgón" al pasar el cursor sobre él */
+}

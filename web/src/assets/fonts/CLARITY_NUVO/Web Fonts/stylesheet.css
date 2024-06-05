@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-Light.eot');
+    src: url('ClarityNuvo-Light.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-Light.woff2') format('woff2'),
+        url('ClarityNuvo-Light.woff') format('woff'),
+        url('ClarityNuvo-Light.svg#ClarityNuvo-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-Italic.eot');
+    src: url('ClarityNuvo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-Italic.woff2') format('woff2'),
+        url('ClarityNuvo-Italic.woff') format('woff'),
+        url('ClarityNuvo-Italic.svg#ClarityNuvo-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-Heavy.eot');
+    src: url('ClarityNuvo-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-Heavy.woff2') format('woff2'),
+        url('ClarityNuvo-Heavy.woff') format('woff'),
+        url('ClarityNuvo-Heavy.svg#ClarityNuvo-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-ThinItalic.eot');
+    src: url('ClarityNuvo-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-ThinItalic.woff2') format('woff2'),
+        url('ClarityNuvo-ThinItalic.woff') format('woff'),
+        url('ClarityNuvo-ThinItalic.svg#ClarityNuvo-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-BoldItalic.eot');
+    src: url('ClarityNuvo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-BoldItalic.woff2') format('woff2'),
+        url('ClarityNuvo-BoldItalic.woff') format('woff'),
+        url('ClarityNuvo-BoldItalic.svg#ClarityNuvo-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-Bold.eot');
+    src: url('ClarityNuvo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-Bold.woff2') format('woff2'),
+        url('ClarityNuvo-Bold.woff') format('woff'),
+        url('ClarityNuvo-Bold.svg#ClarityNuvo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-LightItalic.eot');
+    src: url('ClarityNuvo-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-LightItalic.woff2') format('woff2'),
+        url('ClarityNuvo-LightItalic.woff') format('woff'),
+        url('ClarityNuvo-LightItalic.svg#ClarityNuvo-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-Regular.eot');
+    src: url('ClarityNuvo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-Regular.woff2') format('woff2'),
+        url('ClarityNuvo-Regular.woff') format('woff'),
+        url('ClarityNuvo-Regular.svg#ClarityNuvo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-Thin.eot');
+    src: url('ClarityNuvo-Thin.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-Thin.woff2') format('woff2'),
+        url('ClarityNuvo-Thin.woff') format('woff'),
+        url('ClarityNuvo-Thin.svg#ClarityNuvo-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Clarity Nuvo';
+    src: url('ClarityNuvo-HeavyItalic.eot');
+    src: url('ClarityNuvo-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('ClarityNuvo-HeavyItalic.woff2') format('woff2'),
+        url('ClarityNuvo-HeavyItalic.woff') format('woff'),
+        url('ClarityNuvo-HeavyItalic.svg#ClarityNuvo-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+

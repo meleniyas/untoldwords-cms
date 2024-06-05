@@ -1,0 +1,11 @@
+<div class="work-tittle">
+    <div>{{ name }}</div>
+</div>
+<div class="delete">
+    <div (click) ="showConfirmDelete(workId)">DELETE WORK</div>
+</div>
+<div class="update">
+    <div (click) ="showUpdateWork(workId)">UPDATE WORK</div>
+</div>
+<app-worknewimage [workId]="workId"></app-worknewimage>
+<app-work-image-carousel [work]="work"></app-work-image-carousel>

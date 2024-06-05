@@ -1,0 +1,30 @@
+<div class="loader" *ngIf="!dataLoaded">
+  Cargando datos...
+</div>
+<div class="layer" *ngIf="dataLoaded">
+  <span>ACTUALIZAR DATOS DE LA IMAGEN</span>
+  <form (ngSubmit)="update()" #updateImageForm="ngForm">
+    <div class="form-group">
+      <label for="title">Nombre:</label>
+      <input type="text" class="form-control" id="title" name="title" [(ngModel)]="image.name">
+    </div>
+    <div class="form-group">
+      <label for="isHome">¿Home?</label>
+      <div>
+        <input type="checkbox" id="isHome" name="isHome" [(ngModel)]="isHome">
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Trabajos:</label>
+      <div *ngFor="let work of works">
+        <input type="radio" [id]="'radio_' + work.id" [value]="work.id" name="selectedWork" (change)="toggleSelection(work)">
+        <label [for]="'radio_' + work.id">{{ work.name }}</label>
+      </div>
+      
+    </div>
+    <div class="selection">
+      <button class="cancel" (click)="close()">Cancelar</button>
+      <button type="submit">Actualizar</button>
+    </div>
+  </form>
+</div>
